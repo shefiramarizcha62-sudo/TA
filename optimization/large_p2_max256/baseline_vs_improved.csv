@@ -1,0 +1,3 @@
+model,test_accuracy,test_f1_macro
+Baseline — IndoBERT Large P2 + MAX256,0.5130890052356021,0.5015583537212513
+Improved — IndoBERT Large P2 + MAX256 + Weighted Loss,0.507853,0.508661

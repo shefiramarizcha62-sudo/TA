@@ -1,0 +1,17 @@
+{
+    "model": "IndoBERT Large P2",
+    "checkpoint": "indobenchmark/indobert-large-p2",
+    "max_length": 256,
+    "batch_size": 4,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "class_weighted": true,
+    "num_train_epochs": 10,
+    "early_stopping_patience": 2,
+    "evaluation_strategy": "epoch",
+    "metric_for_best_model": "f1_macro",
+    "greater_is_better": true,
+    "data_collator": "DataCollatorWithPadding",
+    "padding": "dynamic",
+    "seed": 42
+}
