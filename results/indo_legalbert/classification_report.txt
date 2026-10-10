@@ -1,0 +1,13 @@
+CLASSIFICATION REPORT — INDO-LEGALBERT
+
+              precision    recall  f1-score   support
+
+          C0     0.5345    0.4429    0.4844        70
+          C1     0.3889    0.4000    0.3944        70
+          C2     0.3780    0.4429    0.4079        70
+          C3     0.4494    0.5714    0.5031        70
+          C4     0.6327    0.4429    0.5210        70
+
+    accuracy                         0.4600       350
+   macro avg     0.4767    0.4600    0.4622       350
+weighted avg     0.4767    0.4600    0.4622       350
